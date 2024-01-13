@@ -12,11 +12,6 @@
       default = false;
     };
 
-    www = mkOption {
-      type = types.bool;
-      default = false;
-    };
-
     host = mkOption {
       type = types.str;
       default = "wp.local";
